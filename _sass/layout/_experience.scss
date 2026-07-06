@@ -13,22 +13,36 @@
 
 .org-inline-logo {
   display: inline-block;
-  height: 0.95em;
-  width: auto;
-  max-height: 1.05em;
-  max-width: 2.5em;
-  margin-right: 0.28em;
-  vertical-align: -0.1em;
+  height: 1em;
+  width: 1em;
+  margin-right: 0.18em;
+  vertical-align: -0.14em;
   object-fit: contain;
 }
 
 .org-inline-link {
   display: inline;
   text-decoration: underline;
-  white-space: nowrap;
 }
 
 .project-org {
   margin: 0 0 0.75em;
   font-weight: bold;
+}
+
+.author__employer-link {
+  display: inline;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.author__urls .author__employer a {
+  display: inline;
+  margin-bottom: 0;
+  padding: 0;
 }
