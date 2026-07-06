@@ -79,3 +79,25 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+.language-switch {
+  padding: 0 0.65rem;
+  color: var(--global-text-color-light);
+  font-size: 0.72rem;
+
+  a {
+    display: inline-block !important;
+    margin: 0 0.2rem !important;
+    padding-inline: 0 !important;
+  }
+
+  a::before {
+    display: none;
+  }
+
+  &__active {
+    color: var(--global-text-color) !important;
+    font-weight: 700;
+    pointer-events: none;
+  }
+}

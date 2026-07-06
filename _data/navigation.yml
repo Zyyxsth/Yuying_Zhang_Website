@@ -17,17 +17,18 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
   - title: "CV"
     url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+
+main_zh:
+  - title: "论文"
+    url: /zh/publications/
+
+  - title: "报告"
+    url: /zh/talks/
+
+  - title: "教学"
+    url: /zh/teaching/
+
+  - title: "简历"
+    url: /zh/cv/
