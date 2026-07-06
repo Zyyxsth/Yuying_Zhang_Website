@@ -11,7 +11,7 @@ Edit `_config.yml`:
 - `author` (English sidebar)
 - `author_zh` (Chinese sidebar)
 
-The current avatar is `images/profile.svg`. To use a portrait, place it in `images/` and update `author.avatar`.
+The current portrait is `images/profile-photo.jpg`. Replace that file to update the profile image.
 
 ## 2. Home pages / 中英文主页
 

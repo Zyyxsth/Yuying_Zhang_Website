@@ -24,7 +24,7 @@ repository               : "Zyyxsth/Yuying_Zhang_Website"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author: &author
   # Biographic information
-  avatar           : "profile.svg"
+  avatar           : "profile-photo.jpg"
   name             : "Yuying Zhang"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student working on reinforcement learning, embodied intelligence, and robot control."
