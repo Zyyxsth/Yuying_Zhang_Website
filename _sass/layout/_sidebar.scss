@@ -195,7 +195,9 @@
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
-    display: block;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
   }
 }
 
@@ -307,7 +309,32 @@
     white-space: nowrap;
   }
 
-  a {
+  .author__employer {
+    .author__employer-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4em;
+      margin-bottom: 0;
+      padding: 0;
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .org-inline-logo {
+      display: block;
+      height: 1em;
+      width: 1em;
+      margin: 0;
+      flex: 0 0 auto;
+      object-fit: contain;
+    }
+  }
+
+  a:not(.author__employer-link) {
     display: block;
     margin-bottom: 5px;
     padding-right: 5px;

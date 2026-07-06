@@ -28,7 +28,7 @@ author: &author
   name             : "Yuying Zhang"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student working on reinforcement learning, embodied intelligence, and robot control."
-  location         : "Guangzhou, China"
+  location         : "Shenzhen, China"
   employer         : "Sun Yat-sen University"
   employer_url     : "https://www.sysu.edu.cn/"
   employer_logo    : "logos/sysu.png"
@@ -90,7 +90,7 @@ author_zh:
   <<: *author
   name             : "张钰迎"
   bio              : "中山大学硕士研究生，研究方向为强化学习、具身智能与机器人运动控制。"
-  location         : "中国 · 广州"
+  location         : "中国 · 深圳"
   employer         : "中山大学"
   employer_url     : "https://www.sysu.edu.cn/"
 

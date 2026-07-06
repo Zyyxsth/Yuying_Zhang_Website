@@ -29,20 +29,3 @@
   margin: 0 0 0.75em;
   font-weight: bold;
 }
-
-.author__employer-link {
-  display: inline;
-  color: inherit;
-  font-size: inherit;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.author__urls .author__employer a {
-  display: inline;
-  margin-bottom: 0;
-  padding: 0;
-}
