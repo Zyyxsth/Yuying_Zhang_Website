@@ -30,7 +30,7 @@ Developed high-dynamic motion skills for the T800 humanoid robot, including swee
 Constrained RL for Wheeled-Legged Stair Climbing
 ======
 
-**Benmo Technology · Oct. 2025–Dec. 2025**
+**DirectDrive Technology · Oct. 2025–Dec. 2025**
 
 Designed autonomous stair-climbing control for the D1 wheeled-legged robot under hybrid contact dynamics and strict safety constraints.
 
