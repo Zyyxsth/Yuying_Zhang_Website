@@ -27,17 +27,8 @@ Research Interests
 Education
 ======
 
-### Sun Yat-sen University
-
-**M.S. in Control Science and Engineering · Sep. 2024–Jun. 2027 (expected)**
-
-GPA: 3.84/4.00 · Rank: 2/30 · First-Class Outstanding Student Scholarship (2025) · Second-Class Outstanding Student Scholarship (2024)
-
-### Sun Yat-sen University
-
-**B.Eng. in Intelligent Science and Technology · Sep. 2020–Jun. 2024**
-
-GPA: 3.90/4.00 · Rank: 15/225 · Second-Class Outstanding Student Scholarship (2021, 2023)
+- **M.S. in Control Science and Engineering**, Sun Yat-sen University, 2024–2027 (expected)
+- **B.Eng. in Intelligent Science and Technology**, Sun Yat-sen University, 2020–2024
 
 Publications
 ======
@@ -61,7 +52,7 @@ Research & Industry Experience
 - Developed high-dynamic humanoid motion policies based on BeyondMimic, including sweeping kicks and aerial spinning kicks, with successful deployment in MuJoCo and on the T800 humanoid robot.
 - Trained AMP-based omnidirectional boxing-style locomotion and improved posture support, style clarity, reward stability, and directional consistency.
 
-### Benmo Technology · Reinforcement Learning Motion Control Algorithm Intern
+### DirectDrive Technology · Reinforcement Learning Motion Control Algorithm Intern
 
 **Oct. 2025–Dec. 2025**
 
@@ -93,14 +84,6 @@ Honors & Awards
 - Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2024
 - Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2023
 - Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2021
-
-Technical Skills
-======
-
-- **Robotics and algorithms:** reinforcement learning, wheeled-legged robot control, humanoid locomotion, MPC, path planning, trajectory optimization
-- **Simulation:** Isaac Lab, MuJoCo
-- **Middleware and tools:** ROS 1, ROS 2, RViz, Linux, Git, Docker
-- **Engineering:** Sim-to-Real, real-world deployment, multi-scenario experimental validation
 
 Contact
 ======
