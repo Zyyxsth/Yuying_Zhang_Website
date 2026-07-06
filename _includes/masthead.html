@@ -1,0 +1,52 @@
+{% include base_path %}
+{% assign current_lang = page.lang | default: "en" %}
+{% if current_lang == "zh" %}
+  {% assign navigation_links = site.data.navigation.main_zh %}
+  {% assign home_url = "/zh/" %}
+  {% assign home_title = site.title_zh | default: site.title %}
+  {% assign alternate_url = page.alternate_url | default: "/" %}
+{% else %}
+  {% assign navigation_links = site.data.navigation.main %}
+  {% assign home_url = "/" %}
+  {% assign home_title = site.title %}
+  {% assign alternate_url = page.alternate_url | default: "/zh/" %}
+{% endif %}
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><span class="navicon"></span></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == home_url or page.url == '/index.html' %}selected{% endif %}">
+            <a href="{{ base_path }}{{ home_url }}">{{ home_title }}</a>
+          </li>
+          {% for link in navigation_links %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+          <li class="masthead__menu-item language-switch persist tail" aria-label="Language selection">
+            {% if current_lang == "zh" %}
+              <a class="language-switch__active" href="{{ base_path }}{{ page.url }}" lang="zh-CN" aria-current="page">中文</a>
+              <span aria-hidden="true">/</span>
+              <a href="{{ base_path }}{{ alternate_url }}" lang="en">EN</a>
+            {% else %}
+              <a href="{{ base_path }}{{ alternate_url }}" lang="zh-CN">中文</a>
+              <span aria-hidden="true">/</span>
+              <a class="language-switch__active" href="{{ base_path }}{{ page.url }}" lang="en" aria-current="page">EN</a>
+            {% endif %}
+          </li>
+          <li id="theme-toggle" class="masthead__menu-item persist tail">
+            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+          </li>
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
