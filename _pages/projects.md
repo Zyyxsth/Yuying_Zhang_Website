@@ -25,6 +25,8 @@ Designed autonomous stair-climbing control for the D1 wheeled-legged robot under
 - Added Barlow Twins self-supervision to privileged learning for stronger representations and more robust Sim-to-Real transfer.
 - Completed simulation training, real-world deployment, ablation studies, and comparative experiments.
 
+[Project page](https://d1-stairs-up.github.io/)
+
 Threat-Aware UAV Dodging
 ======
 

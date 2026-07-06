@@ -25,6 +25,8 @@ alternate_url: /projects/
 - 将 Barlow Twins 自监督引入特权学习，提升策略表征和 Sim-to-Real 鲁棒性。
 - 完成仿真训练、实机部署、消融实验和对比实验。
 
+[项目主页](https://d1-stairs-up.github.io/)
+
 无人机动态威胁感知与规避
 ======
 
