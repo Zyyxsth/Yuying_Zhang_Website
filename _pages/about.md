@@ -15,15 +15,6 @@ I am **Yuying Zhang**, an M.S. student in Control Science and Engineering at [Su
 
 My research focuses on **reinforcement learning, embodied intelligence, and robot planning and control**. I am particularly interested in learning-based locomotion, constrained reinforcement learning, Sim-to-Real transfer, and reliable deployment on humanoid robots, wheeled-legged robots, and UAVs.
 
-Research Interests
-======
-
-- Reinforcement learning for robot locomotion and control
-- Embodied intelligence and humanoid robotics
-- Motion planning, model predictive control, and trajectory optimization
-- Sim-to-Real transfer and real-world robot deployment
-- Autonomous aerial systems and dynamic obstacle avoidance
-
 Education
 ======
 
@@ -81,9 +72,7 @@ Honors & Awards
 ======
 
 - First-Class Outstanding Student Scholarship, Sun Yat-sen University, 2025
-- Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2024
-- Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2023
-- Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2021
+- Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2021, 2023, and 2024
 
 Contact
 ======
