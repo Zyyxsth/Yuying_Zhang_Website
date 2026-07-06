@@ -9,21 +9,25 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher at University Name. My work focuses on **your primary research area**, with particular interests in research topic A, research topic B, and research topic C.
+I am **Yuying Zhang**, an M.S. student in Control Science and Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/), expected to graduate in 2027. I received my B.Eng. in Intelligent Science and Technology from Sun Yat-sen University in 2024.
 
-My research asks how we can use rigorous methods to understand important problems and build systems that are useful, responsible, and grounded in real human needs.
+My research focuses on **reinforcement learning, embodied intelligence, and robot planning and control**. I am particularly interested in learning-based locomotion, constrained reinforcement learning, Sim-to-Real transfer, and reliable deployment on humanoid robots, wheeled-legged robots, and UAVs.
 
 Research interests
 ======
 
-- Research direction one
-- Research direction two
-- Research direction three
+- Reinforcement learning for robot locomotion and control
+- Embodied intelligence and humanoid robotics
+- Motion planning, model predictive control, and trajectory optimization
+- Sim-to-Real transfer and real-world robot deployment
+- Autonomous aerial systems and dynamic obstacle avoidance
 
-News
+Selected highlights
 ======
 
-- **2026:** Add your latest research update here.
-- **2025:** Add another concise academic update here.
+- **2026:** Motion Control Algorithm Intern at EngineAI, working on high-dynamic humanoid motion and AMP-based locomotion for the T800 robot.
+- **2025:** First-author paper on threat-aware UAV projectile dodging published in *IEEE Robotics and Automation Letters* and transferred to ICRA 2026.
+- **2025:** Received the First-Class Outstanding Student Scholarship at Sun Yat-sen University.
+- **2025:** Completed robust Sim-to-Real stair-climbing control for a wheeled-legged robot using constrained reinforcement learning.
 
-Please feel free to get in touch if you would like to discuss research ideas or potential collaborations.
+I welcome conversations about reinforcement learning, embodied intelligence, and real-world robot deployment. Please feel free to contact me by email.

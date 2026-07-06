@@ -1,22 +1,23 @@
 # Personalization checklist / 个性化修改清单
 
-This site is based on Academic Pages and has English and Chinese routes.
+This site is based on Academic Pages and has English and Chinese routes. Content from `张钰迎简历.docx` has been imported. Phone and WeChat details are intentionally not published.
 
 ## 1. Basic profile / 基本资料
 
 Edit `_config.yml`:
 
-- `title`, `title_zh`
+- `title`, `title_zh` (currently Yuying Zhang / 张钰迎)
 - `url`, `repository`
 - `author` (English sidebar)
 - `author_zh` (Chinese sidebar)
 
-Replace `images/profile.png` with your own photo, or update `author.avatar`.
+The current avatar is `images/profile.svg`. To use a portrait, place it in `images/` and update `author.avatar`.
 
 ## 2. Home pages / 中英文主页
 
 - English: `_pages/about.md`
 - 中文：`_pages/about-zh.md`
+- Projects: `_pages/projects.md`, `_pages/projects-zh.md`
 
 The language switch in the upper-right corner connects these pages.
 
