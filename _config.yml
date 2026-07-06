@@ -31,7 +31,6 @@ author: &author
   location         : "Shenzhen, China"
   employer         : "Sun Yat-sen University"
   employer_url     : "https://www.sysu.edu.cn/"
-  employer_logo    : "logos/sysu.png"
   uri              : # URL
   email            : "zhangyy393@mail2.sysu.edu.cn"
 
