@@ -13,15 +13,15 @@ redirect_from:
 
 I am **Yuying Zhang**, an M.S. student in Control Science and Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/), expected to graduate in 2027. I received my B.Eng. in Intelligent Science and Technology from Sun Yat-sen University in 2024.
 
-My research focuses on **reinforcement learning, embodied intelligence, and robot planning and control**. I am particularly interested in learning-based locomotion, constrained reinforcement learning, Sim-to-Real transfer, and reliable deployment on humanoid robots, wheeled-legged robots, and UAVs.
+My research focuses on **reinforcement-learning-based control for humanoid robots**. Building on my experience in fundamental locomotion control and real-world robot deployment, I am currently interested in **loco-manipulation, whole-body control, and perception-aware locomotion**.
 
-Education & Experience
+Experience & Education
 ======
 
+- **Motion Control Algorithm Intern**, EngineAI, May 2026–Present
+- **Reinforcement Learning Motion Control Algorithm Intern**, DirectDrive Technology (DDT), Oct. 2025–Dec. 2025
 - **M.S. in Control Science and Engineering**, Sun Yat-sen University, 2024–2027 (expected)
 - **B.Eng. in Intelligent Science and Technology**, Sun Yat-sen University, 2020–2024
-- **Motion Control Algorithm Intern**, EngineAI, May 2026–Present
-- **Reinforcement Learning Motion Control Algorithm Intern**, DirectDrive Technology, Oct. 2025–Dec. 2025
 
 Honors & Awards
 ======
