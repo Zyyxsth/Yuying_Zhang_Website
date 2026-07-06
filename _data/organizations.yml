@@ -1,0 +1,17 @@
+sysu:
+  url: "https://www.sysu.edu.cn/"
+  logo: "logos/sysu.png"
+  name_en: "Sun Yat-sen University"
+  name_zh: "中山大学"
+
+engineai:
+  url: "https://www.engineai.com.cn/"
+  logo: "logos/engineai.png"
+  name_en: "EngineAI"
+  name_zh: "众擎机器人"
+
+directdrive:
+  url: "https://www.directdrive.com/"
+  logo: "logos/directdrive.png"
+  name_en: "DirectDrive Technology (DDT)"
+  name_zh: "本末科技"

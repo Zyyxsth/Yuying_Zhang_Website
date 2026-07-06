@@ -10,14 +10,14 @@ alternate_url: /zh/projects/
 Humanoid High-Dynamic Motion and Boxing Locomotion
 ======
 
-**EngineAI · May 2026–Present**
+{% include project-org.html org="engineai" period="May 2026–Present" lang="en" %}
 
 Developed high-dynamic motion skills for the T800 humanoid robot, including sweeping kicks and aerial spinning kicks, based on BeyondMimic. Trained AMP-based boxing-style omnidirectional locomotion and improved posture support, style clarity, reward stability, and directional consistency. Policies were deployed successfully in MuJoCo and on real hardware.
 
 Constrained RL for Wheeled-Legged Stair Climbing
 ======
 
-**DirectDrive Technology (DDT) · Oct. 2025–Dec. 2025**
+{% include project-org.html org="directdrive" period="Oct. 2025–Dec. 2025" lang="en" %}
 
 Designed autonomous stair-climbing control for the D1 wheeled-legged robot under hybrid contact dynamics and strict safety constraints.
 

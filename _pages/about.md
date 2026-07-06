@@ -11,23 +11,20 @@ redirect_from:
   - /resume
 ---
 
-I am **Yuying Zhang**, an M.S. student in Control Science and Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/), expected to graduate in 2027. I received my B.Eng. in Intelligent Science and Technology from Sun Yat-sen University in 2024.
+I am **Yuying Zhang**, an M.S. student in Control Science and Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/), expected to graduate in 2027. I received my B.Eng. in Intelligent Science and Technology from [Sun Yat-sen University](https://www.sysu.edu.cn/) in 2024.
 
 My research focuses on **reinforcement-learning-based control for humanoid robots**. Building on my experience in fundamental locomotion control and real-world robot deployment, I am currently interested in **loco-manipulation, whole-body control, and perception-aware locomotion**.
 
 Experience & Education
 ======
 
-- **Motion Control Algorithm Intern**, EngineAI, May 2026–Present
-- **Reinforcement Learning Motion Control Algorithm Intern**, DirectDrive Technology (DDT), Oct. 2025–Dec. 2025
-- **M.S. in Control Science and Engineering**, Sun Yat-sen University, 2024–2027 (expected)
-- **B.Eng. in Intelligent Science and Technology**, Sun Yat-sen University, 2020–2024
+{% include experience-list.html lang="en" %}
 
 Honors & Awards
 ======
 
-- First-Class Outstanding Student Scholarship, Sun Yat-sen University, 2025
-- Second-Class Outstanding Student Scholarship, Sun Yat-sen University, 2021, 2023, and 2024
+- First-Class Outstanding Student Scholarship, [Sun Yat-sen University](https://www.sysu.edu.cn/), 2025
+- Second-Class Outstanding Student Scholarship, [Sun Yat-sen University](https://www.sysu.edu.cn/), 2021, 2023, and 2024
 
 Contact
 ======

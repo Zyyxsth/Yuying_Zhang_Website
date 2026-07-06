@@ -1,0 +1,70 @@
+.experience-list {
+  list-style: none;
+  margin: 0 0 $indent-var;
+  padding: 0;
+}
+
+.experience-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85em;
+  margin-bottom: 0.9em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.experience-item__logo,
+.project-org__logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.45rem;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  &:hover {
+    border-color: var(--global-link-color-hover);
+  }
+}
+
+.experience-item__body {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-top: 0.15em;
+  line-height: 1.5;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.project-org {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin: 0 0 0.75em;
+}
+
+.project-org__meta {
+  font-weight: bold;
+
+  a {
+    text-decoration: underline;
+  }
+}

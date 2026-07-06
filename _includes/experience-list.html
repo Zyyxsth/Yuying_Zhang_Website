@@ -1,0 +1,27 @@
+{% include base_path %}
+{% assign lang = include.lang | default: page.lang | default: "en" %}
+
+<ul class="experience-list">
+  {% for item in site.data.experience %}
+    {% assign org = site.data.organizations[item.org] %}
+    {% if lang == "zh" %}
+      {% assign role = item.role_zh %}
+      {% assign period = item.period_zh %}
+      {% assign org_name = org.name_zh %}
+    {% else %}
+      {% assign role = item.role_en %}
+      {% assign period = item.period_en %}
+      {% assign org_name = org.name_en %}
+    {% endif %}
+    <li class="experience-item">
+      <a class="experience-item__logo" href="{{ org.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ org_name }}">
+        <img src="{{ org.logo | prepend: '/images/' | prepend: base_path }}" alt="{{ org_name }} logo">
+      </a>
+      <div class="experience-item__body">
+        <strong>{{ role }}</strong>,
+        <a href="{{ org.url }}" target="_blank" rel="noopener noreferrer">{{ org_name }}</a>,
+        {{ period }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

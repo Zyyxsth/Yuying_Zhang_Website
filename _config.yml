@@ -30,6 +30,7 @@ author: &author
   bio              : "M.S. student working on reinforcement learning, embodied intelligence, and robot control."
   location         : "Guangzhou, China"
   employer         : "Sun Yat-sen University"
+  employer_url     : "https://www.sysu.edu.cn/"
   uri              : # URL
   email            : "zhangyy393@mail2.sysu.edu.cn"
 
@@ -90,6 +91,7 @@ author_zh:
   bio              : "中山大学硕士研究生，研究方向为强化学习、具身智能与机器人运动控制。"
   location         : "中国 · 广州"
   employer         : "中山大学"
+  employer_url     : "https://www.sysu.edu.cn/"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

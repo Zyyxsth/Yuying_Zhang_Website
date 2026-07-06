@@ -1,0 +1,18 @@
+{% include base_path %}
+{% assign org = site.data.organizations[include.org] %}
+{% assign lang = include.lang | default: page.lang | default: "en" %}
+{% if lang == "zh" %}
+  {% assign org_name = org.name_zh %}
+{% else %}
+  {% assign org_name = org.name_en %}
+{% endif %}
+
+<p class="project-org">
+  <a class="project-org__logo" href="{{ org.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ org_name }}">
+    <img src="{{ org.logo | prepend: '/images/' | prepend: base_path }}" alt="{{ org_name }} logo">
+  </a>
+  <span class="project-org__meta">
+    <a href="{{ org.url }}" target="_blank" rel="noopener noreferrer">{{ org_name }}</a>
+    <span aria-hidden="true"> · </span>{{ include.period }}
+  </span>
+</p>

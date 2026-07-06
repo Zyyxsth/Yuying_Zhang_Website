@@ -10,14 +10,14 @@ alternate_url: /projects/
 人形机器人高动态动作与拳击步态
 ======
 
-**众擎机器人 · 2026.05—至今**
+{% include project-org.html org="engineai" period="2026.05—至今" lang="zh" %}
 
 基于 BeyondMimic 开展 T800 人形机器人扫堂腿、空中回旋踢等高动态动作训练；利用 AMP 训练拳击风格全向行走策略，并针对姿态支撑、风格表现、奖励坍塌和不同方向性能不一致等问题进行优化。相关策略已在 MuJoCo 和 T800 真机成功部署。
 
 双轮足机器人约束强化学习上楼梯
 ======
 
-**本末科技 · 2025.10—2025.12**
+{% include project-org.html org="directdrive" period="2025.10—2025.12" lang="zh" %}
 
 面向混合接触动力学和严格安全约束，设计 D1 双轮足机器人自主上楼梯控制算法。
 
