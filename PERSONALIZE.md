@@ -29,7 +29,7 @@ Create one Markdown file per item in:
 - `_talks/` — talks / 学术报告
 - `_teaching/` — teaching / 教学
 
-Edit `_pages/cv.md` and `_pages/cv-zh.md` for the two CV pages.
+Education, experience, publications, projects, awards, and skills are presented directly on the two home pages rather than in a separate CV module.
 
 ## 4. Local preview / 本地预览
 
